@@ -9,14 +9,26 @@
 
 int main() {
 
-  char c;
+  char L;
+  char conta;
+  int n;
+  int f;
+  L = 0;
+  conta = 0;
 
-  c = 1;
+  while (L != '\n') {
 
-  while (c != '\n') {
-    scanf("%c", &c);
+    scanf("%L", &L);
+
+    if (L == '.' || L == ',' || L == ':' || L == ';' || L == ' ' || L == '!' || L == '?' || L == '-' || L == '\n'){
+    if ((conta >= 'a' && conta <= 'z') || conta >= 'A' && conta <= 'Z')){
+    n++;
+}
+
   }
 
-  printf("1\n");
+  }
+
+  printf("%d\n", n);
   return 0;
 }
