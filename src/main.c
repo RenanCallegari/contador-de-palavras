@@ -1,5 +1,5 @@
 /* Contador de palavras
- *
+ * Renan H. M. Callegari RA:140904
  * Este programa recebera uma serie de caracteres representando palavras em sua
  * entrada. Ao receber um caractere fim de linha ('\n'), deve imprimir na tela o
  * numero de palavras separadas que recebeu e, apos, encerrar.
@@ -11,7 +11,7 @@ int main() {
 
   char c;
   char conta;
-  int Q, f;
+  int Q=0, f=0;
   c = 0;
   conta = 0;
 
